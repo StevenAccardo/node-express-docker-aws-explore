@@ -1,0 +1,21 @@
+{
+    "name": "express-docker-aws-explore",
+    "version": "1.0.0",
+    "engines": {
+        "npm": "10.1.0",
+        "node": "18.17.1"
+    },
+    "type": "module",
+    "description": "An application for exploring Docker and AWS deploys.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node index.js",
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Steven Accardo",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
