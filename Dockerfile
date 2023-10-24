@@ -10,7 +10,7 @@ COPY package*.json ./
 # Install the dependencies
 RUN npm install
 
-# Copy the rest of the appliction code to the working directory
+# Copy the rest of the application code to the working directory
 COPY . .
 
 # Set an environment variable
